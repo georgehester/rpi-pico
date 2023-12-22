@@ -1,23 +1,3 @@
-# cmake_minimum_required(VERSION 3.13)
-#
-# include(pico_sdk_import.cmake)
-#
-# project(testing C CXX ASM)
-#
-# # export(PICO_SDK_PATH "lib/pico-sdk")
-# set(CMAKE_C_STANDARD 11)
-# set(CMAKE_CXX_STANDARD 17)
-#
-# pico_sdk_init()
-#
-# add_executable(output
-# src/main.c
-# )
-#
-# pico_add_extra_outputs(output)
-#
-# target_link_libraries(output pico_stdlib)
-
 set(PROJECT testing)
 
 set(CMAKE_C_STANDARD 11)

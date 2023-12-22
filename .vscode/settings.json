@@ -5,5 +5,7 @@
         "stdlib.h": "c",
         "gpio.h": "c",
         "stdio.h": "c"
-    }
+    },
+    "cmake.configureOnOpen": false,
+    "cmake.configureOnEdit": false
 }

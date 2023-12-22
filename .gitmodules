@@ -2,3 +2,4 @@
 	path = lib/pico-sdk
 	url = https://github.com/raspberrypi/pico-sdk.git
 	branch = master
+    ignore = all
