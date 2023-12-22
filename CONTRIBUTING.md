@@ -34,6 +34,5 @@ Commit messages for a change that breaks with current versions should increment 
 <type>!: <description>
 ```
 
-
 > [!NOTE]
 > Version numbers match the convention `MAJOR.MINOR.PATCH` , as such `fix` would refer to a `PATCH` value increase, `feat` to a `MINOR` increase and any commit that causes a breaking change a `MAJOR` increase.
