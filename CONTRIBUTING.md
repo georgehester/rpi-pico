@@ -26,5 +26,14 @@ For most commit messages, specifically those done by `-m` on the command line `<
 - `chore` - Changes to maintenace files.
 - `build` - Changes which effect the build process such as toolchain, project dependencies, versionsing, ci pipeline.
 
+### Breaking Changes
+
+Commit messages for a change that breaks with current versions should increment the major version and include a `!` in the commit message as follows.
+
+```
+<type>!: <description>
+```
+
+
 > [!NOTE]
 > Version numbers match the convention `MAJOR.MINOR.PATCH` , as such `fix` would refer to a `PATCH` value increase, `feat` to a `MINOR` increase and any commit that causes a breaking change a `MAJOR` increase.
