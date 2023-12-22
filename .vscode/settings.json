@@ -1,0 +1,10 @@
+/*{
+    "cmake.environment": {
+        "PICO_SDK_PATH": "lib/pico-sdk"
+    },
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "files.associations": {
+        ".clang-format": "plaintext",
+        "*.h": "c"
+    }
+}*/

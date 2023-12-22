@@ -1,0 +1,15 @@
+.ds_store
+desktop.ini
+.*
+!.gitignore
+!.clang-format
+
+/.*/
+!/.github/
+!/.vscode/
+
+/build/
+/lib/
+/working/
+
+pico_sdk_import.cmake
