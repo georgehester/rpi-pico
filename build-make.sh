@@ -8,7 +8,7 @@ fi
 
 # Change to build folder and run make to update the build output
 cd build
-make >/dev/null
+make -j8 >/dev/null
 
 # Check make was successful
 if [[ $? -ne 0 ]]; then

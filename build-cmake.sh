@@ -7,7 +7,7 @@ if [[ ! -e lib/pico-sdk/external/pico_sdk_import.cmake ]]; then
 fi
 
 # Make sure the pico sdk import cmake file is present
-if [[ -e pico_sdk_import.cmake ]]; then
+if [[ ! -e pico_sdk_import.cmake ]]; then
     cp lib/pico-sdk/external/pico_sdk_import.cmake pico_sdk_import.cmake
 fi
 
