@@ -1,10 +1,7 @@
 {
     "files.associations": {
         ".clang-format": "plaintext",
-        ".gitmodules": "plaintext",
-        "stdlib.h": "c",
-        "gpio.h": "c",
-        "stdio.h": "c"
+        "*.h": "c",
     },
     "cmake.configureOnOpen": false,
     "cmake.configureOnEdit": false
